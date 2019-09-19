@@ -1,6 +1,6 @@
 <a name="top"></a>
 #  Speech Denoising with Deep Feature Losses ([arXiv](https://arxiv.org/abs/1806.10522), [sound examples](https://ccrma.stanford.edu/~francois/SpeechDenoisingWithDeepFeatureLosses/))
-This is a Tensorflow implementation of our [Speech Denoising Convolutional Neural Network trained with Deep Feature Losses](https://arxiv.org/abs/1806.10522).
+This is a Tensorflow implementation of the following research paper [Speech Denoising Convolutional Neural Network trained with Deep Feature Losses](https://arxiv.org/abs/1806.10522).
 
 <!-- Contact: [François Germain](mailto:francois@ccrma.stanford.edu) -->
 
@@ -16,7 +16,7 @@ This is a Tensorflow implementation of our [Speech Denoising Convolutional Neura
 
 <a name="citation"></a>
 ## Citation
-If you use our code for research, please cite our paper:
+If you use the code for research, please cite the paper:
 François G. Germain, Qifeng Chen, and Vladlen Koltun. Speech Denoising with Deep Feature Losses. [arXiv:1806.10522](https://arxiv.org/abs/1806.10522). 2018.
 
 ### License
@@ -26,8 +26,12 @@ The source code is published under the MIT license. See [LICENSE](./LICENCE) for
 
 <a name="setup"></a>
 ## Setup
-You must have a python2 environment setup before proceeding any further. It is recommended to create a virtual environment of python2.7. Make use of the existing virtual environment 'venv'. To activate the environment, run the following command in your root folder :
+Clone the repo into your local machine by making use of Git commands. You must have a python2 environment setup before proceeding any further. It is recommended to create a virtual environment of python2.7. You can create a virtual environment using the package 'virtualenv'. Install the package by 'pip install virtualenv'.
 
+Now setup a virtualenv with the help of following command:
+'virtualenv venv --python=python2.7'
+
+Activate the venv with the following command:
 'source venv/bin/activate'
 
 ### Requirement
