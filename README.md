@@ -35,7 +35,7 @@ Activate the venv with the following command:
 'source venv/bin/activate'
 
 ### Requirement
-Required python libraries: Tensorflow with GPU support (>=1.4) + Scipy (>=1.1) + Numpy (>=1.14) + Tqdm (>=4.0.0). To install in your python distribution, run
+Required python libraries: Tensorflow with GPU support (>=1.4) + Scipy (>=1.1) + Numpy (>=1.14) + Tqdm (>=4.0.0). To install in your python2.7 virtualenv, run
 
 `pip install -r requirements.txt`
 
