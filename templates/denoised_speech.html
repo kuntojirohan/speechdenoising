@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<title>Speech Denoising</title>
+<body>
+<h2>Select file(s) to upload</h2>
+<p>
+	{% with messages = get_flashed_messages() %}
+	  {% if messages %}
+		<ul class=flashes>
+		{% for message in messages %}
+		  <li>{{ message }}</li>
+		{% endfor %}
+		</ul>
+	  {% endif %}
+	{% endwith %}
+</p>
+<form method="post" action="/denoised_speech">
+		<input type="submit" value="denoise">
+</form>
+</body>
+</html>
