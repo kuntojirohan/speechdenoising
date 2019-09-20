@@ -20,11 +20,7 @@ class Denoising():
     def sampling(self):
         '''
         Converts the input noisy audio files into required format and samples it to 16kHz.
-        Args:
-            root (list) : List of root nodes
-            leaf (list) : List of leaf nodes
-        Returns:
-            leaf (list) : List of leaf nodes which some of the root nodes have influence.
+        
         '''
 
         fs = 16000

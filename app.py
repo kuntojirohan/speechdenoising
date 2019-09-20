@@ -40,10 +40,6 @@ def upload_file():
         flash('Currently only wav file types are supported')
         return redirect(request.url)
 
-# @app.route('/speech_denoising_api/denoise/', methods=['GET', 'POST'])
-# def denoised():
-#     return render_template('denoised_speech.html')
-
 @app.route('/denoised_speech', methods=['GET', 'POST'])
 def speech_denoising():
     denoise.sampling()
