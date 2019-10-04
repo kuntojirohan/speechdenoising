@@ -1,8 +1,6 @@
-<!doctype html>
-<html>
-<title>Speech Denoising</title>
-<body>
-<h2>Select file(s) to upload</h2>
+{% extends "base.html" %}
+{% block content %}
+<h2>Select file(s) to upload. (Currently only wav format is supported) </h2>
 <p>
 	{% with messages = get_flashed_messages() %}
 	  {% if messages %}
@@ -21,8 +19,7 @@
 		</p>
     </dl>
     <p>
-		<input type="submit" value="Submit">
+		<button class="btn btn-outline-primary" type="submit" >UPLOAD</button>
 	</p>
 </form>
-</body>
-</html>
+{% endblock %}
