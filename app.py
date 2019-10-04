@@ -1,6 +1,6 @@
 from flask import Flask, flash, request, redirect, render_template
-from flask_restful import Api
-from flask_httpauth import HTTPBasicAuth
+# from flask_restful import Api
+# from flask_httpauth import HTTPBasicAuth
 import os
 from werkzeug.utils import secure_filename
 from denoising import Denoising
@@ -16,8 +16,8 @@ app = Flask(__name__)
 app.secret_key = "speech denoising"
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 app.config['MAX_CONTENT_LENGTH'] = 2 * 1024 * 1024
-api = Api(app)
-auth = HTTPBasicAuth()
+# api = Api(app)
+# auth = HTTPBasicAuth()
 
 def allowed_file(filename):
     return '.' in filename and filename.rsplit('.', 1)[1].lower() in ['wav']
