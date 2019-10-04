@@ -94,7 +94,7 @@ The audio data *must be sampled at 16kHz* (you can resample your data using SoX 
 
 Run the script 'app.py' with the help of the command 'python app.py' on your CLI [NOTE: python here refers to python2 assuming you are operating inside the venv].
 
-This will output an IP address on your terminal screen, which you can open in a supported browser (tested on Google Chrome). The IP address will prompt you to upload a noisy audio file you want to denoise. Follow the given instructions to proceed further and soon you will have your desired denoised samples.
+This will output an IP address on your terminal screen, which you can open in a supported browser (tested on Safari). The IP address will prompt you to upload a noisy audio file you want to denoise. Follow the given instructions to proceed further and soon you will have your desired denoised samples.
 <!-- Once you've downloaded in the script download_data.sh, you can directly process the testing dataset by running
 
 `python senet_infer.py`
