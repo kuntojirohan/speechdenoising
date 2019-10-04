@@ -1,12 +1,7 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
+{% extends "base.html" %}
+{% block content %}
     <p> Successfully Denoised! Please check the denoised samples in the specified path:
           " datasets/sampled_noisy_speech_denoised "
-           </p>
-  </body>
-</html>
+   </p>
+   <button class="btn btn-outline-primary"><a href="/download">download</a></button>
+{% endblock %}
